@@ -19,7 +19,9 @@ import nltk
 # In[31]:
 
 
-my_dataset = pd.read_csv('/Users/MacbookAir/Desktop/Tabukk.csv', error_bad_lines=False)
+url="https://raw.githubusercontent.com/Ochie123/Citytopic-modeling/main/Mecca.csv"
+s=requests.get(url).content
+my_dataset=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
 
 # In[32]:
