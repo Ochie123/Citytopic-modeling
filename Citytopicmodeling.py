@@ -19,9 +19,9 @@ import nltk
 
 
 url="https://raw.githubusercontent.com/Ochie123/Citytopic-modeling/main/Mecca.csv"
-s=requests.get(url).content
-my_dataset=pd.read_csv(io.StringIO(s.decode('utf-8')))
-
+my_dataset=pd.read_csv(url)
+##s=requests.get(url).content
+##my_dataset=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
 # In[32]:
 
