@@ -11,6 +11,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+from nltk.stem import WordNetLemmatizer
 
 
 # #### replace 'path' with the location of the saved dataset after preprocessing, ie. Users/MacbookAir/Desktop/riyadhh.csv
