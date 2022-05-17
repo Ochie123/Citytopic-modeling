@@ -6,7 +6,9 @@
 # ### Loading Dataset
 
 # In[30]:
-
+pip install -U gensim
+import gensim
+from gensim import corpora
 import streamlit as st
 import numpy as np
 import pandas as pd
