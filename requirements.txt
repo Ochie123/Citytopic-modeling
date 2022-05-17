@@ -1,3 +1,4 @@
 pandas
 streamlit
 nltk
+gensim==4.2.0
