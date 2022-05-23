@@ -23,7 +23,7 @@ from nltk.stem import WordNetLemmatizer
 # In[31]:
 
 
-url="https://raw.githubusercontent.com/Ochie123/Citytopic-modeling/main/Mecca.csv"
+url="https://raw.githubusercontent.com/Ochie123/Citytopic-modeling/main/Medina.csv"
 my_dataset=pd.read_csv(url)
 ##s=requests.get(url).content
 ##my_dataset=pd.read_csv(io.StringIO(s.decode('utf-8')))
